@@ -141,13 +141,65 @@ padding-right: 210px;
 }
 .container-quote {
     background: #e5e7eb;
-    height: 380px;
+    height: 440px;
 }
 .text-quote {
     font-size: 36px;
     font-family: Helvetica, sans-serif;
     font-style: italic;
     font-weight: lighter;
-    color: #1F2937
+    color: #1F2937;
+    align-content: center;
+    padding-top: 135px;
+    padding-left: 320px;
+    padding-right: 320px;
+}
+.text-quote-2 {
+    font-size: 24px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    color:#1F2937;
+    text-align: end;
+    padding-left: 320px;
+    padding-right: 320px;
+}
+.container-signup {
+    height: 370px;
+    background: white;
+}
+.bluebox {
+    display: flex;
+    height: 150px;
+    background-color: #3882F6;
+    margin-top: 109px;
+    margin-bottom: 1px;
+    margin-left: 209px;
+    margin-right: 209px;
+    border-radius: 9px;
+}
+.call {
+    flex-grow: 8;
+    flex-shrink:0;
+    flex-basis:0;
+    font-size: 24px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    padding-top: 50px;
+    padding-left: 100px;
+}
 
+.button-2 {
+    flex-grow:1;
+    flex-shrink: 0;
+    flex-basis: 55px;
+    margin-top: 53px;
+    margin-left: 50px;
+    margin-right: 130px;
+    margin-bottom: 56px;
+    border: 3px solid #F9FAF8;
+    border-radius: 7px;
+    text-align: center;
+    padding-top: 7px;
+    padding-right: 5px;
 }
